@@ -134,6 +134,7 @@ h3#blue {
 
 span.underline-blue {
   color: blue;
+  text-decoration: underline;
 }
 
 p.t-s {
@@ -290,7 +291,98 @@ img#page {
   margin-bottom: 20px;
 }
 
+/* FEATURES AND BUSINESS SECTION */
+
+.content_bf_title {
+  text-align: center;
+}
+
+.content_costum.bf {
+  text-align: left;
+  margin-top: 20px;
+}
+
+/* TABLE SETCION */
+
+section#table_container {
+  text-align: center;
+  color: #fff;
+  background-color: darkblue;
+  background: url("https://prismic-io.s3.amazonaws.com/www-static/a2e2e54b-93f5-4579-9fa2-bd957fea611a_bg-map.svg") 50% 50% / cover no-repeat rgb(3, 27, 78);
+}
+
+/* SISTEMA QUI!!!! */
+
+table {
+  border-collapse: collapse;
+
+  margin-bottom: 60px;
+}
+
+
+td {
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+td.first_td {
+  width: 60px;
+}
+
+td.second_td {
+  width: 200px;
+  color: lightgrey;
+}
+
+td.third_td {
+  width: 60px;
+  color: #20e5d5;
+}
+
+tr.last_tr > td {
+  border-bottom: transparent;
+}
+
+
+/* <!-- DEV DIGIT OCEAN SECTION --> */
+
+#rockbox {
+  width: 70%;
+  background-color: #fff;
+}
+
+/* MAIN LAST SECTION */
+.content_last {
+  margin: 0;
+}
+
+section.blue_back {
+  text-align: center;
+  color: #fff;
+  background-image: url("https://images.prismic.io/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg?auto=compress,format");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h2.last_title {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+button.last_button {
+  background-color: #fff;
+  color: blue;
+  border-radius: 5px;
+  border: transparent;
+  padding: 7px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+
 /* PROVE */
+
 
 /* .col-xs-6 {
 
