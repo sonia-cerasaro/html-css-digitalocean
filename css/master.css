@@ -205,14 +205,13 @@ div.story {
 
 .content_logo {
   text-align: center;
-  width: 265px;
-  height: 70px;
+
+
 }
 
 /* MAIN SECTION DEPLOY */
 
 .container.deploy {
-
   text-align: left;
 }
 
@@ -220,7 +219,7 @@ div.story {
   text-align: center;
 }
 
-h2#deploy {
+h2.deploy {
   margin-top: 50px;
   margin-bottom: 15px;
 }
@@ -265,10 +264,31 @@ div.word {
 /* SECTION 'DESIGNED FOR DEVELOPERS' */
 
 section.designed_for_developers {
-  height: 40px;
-  background-color: lightgrey;
+  background-color: #f3f5f9;
+  text-align: center;
 }
 
+div.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: blue solid 1px;
+  display: inline-block;
+}
+
+div.circle:hover {
+  background-color: blue;
+}
+
+.content_little_circles {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+img#page {
+  width: 70%;
+  margin-bottom: 20px;
+}
 
 /* PROVE */
 
