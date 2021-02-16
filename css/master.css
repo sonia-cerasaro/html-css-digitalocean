@@ -112,9 +112,6 @@ section.jambotron {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-/* .content {
-  text-align: center;
-} */
 
 img#little-logo {
   width: 50px;
@@ -142,6 +139,11 @@ span.underline-blue {
 p.t-s {
   font-size: 12px;
   padding-bottom: 10px;
+}
+
+p.grey_paragraph.jambo {
+  text-align: left;
+  color: lightgrey;
 }
 
 
@@ -210,12 +212,63 @@ div.story {
 /* MAIN SECTION DEPLOY */
 
 .container.deploy {
+
   text-align: left;
 }
 
 .content.head_title {
   text-align: center;
 }
+
+h2#deploy {
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+p.grey_paragraph {
+  color: grey;
+  font-size: 18px;
+}
+
+.p_costum {
+  margin-bottom: 45px;
+}
+
+.content_v_nav {
+  border-left: lightgrey solid 2px;
+}
+
+.content_v_nav:hover {
+  border-left: blue solid 2px;
+}
+
+div.word {
+  color: grey;
+  padding-top: 11px;
+  padding-left: 5px;
+}
+
+.content_section {
+  margin-top: 15px;
+}
+
+.img_title_deploy {
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.content_section.last {
+  margin-bottom: 60px;
+}
+
+/* SECTION 'DESIGNED FOR DEVELOPERS' */
+
+section.designed_for_developers {
+  height: 40px;
+  background-color: lightgrey;
+}
+
 
 /* PROVE */
 
