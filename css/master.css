@@ -112,9 +112,9 @@ section.jambotron {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.content {
+/* .content {
   text-align: center;
-}
+} */
 
 img#little-logo {
   width: 50px;
@@ -207,15 +207,15 @@ div.story {
   height: 70px;
 }
 
-/* img.lupo {
+/* MAIN SECTION DEPLOY */
+
+.container.deploy {
+  text-align: left;
+}
+
+.content.head_title {
   text-align: center;
-} */
-/* img {
-  text-align: center;
-} */
-
-
-
+}
 
 /* PROVE */
 
