@@ -114,12 +114,6 @@ section.jambotron {
   margin-bottom: 30px;
 }
 
-img#little-logo {
-  width: 50px;
-  padding: none;
-  float: left;
-}
-
 /* COSTUMIZE EMAIL PASWORD SECTION UTILITY */
 h1#jumbo_title {
   font-size: 45px;
@@ -166,6 +160,7 @@ input#password {
 
 button#account {
   width: 90%;
+  font-weight: bold;
   margin-top: 10px;
   background-color: blue;
   color: #fff;
@@ -174,15 +169,24 @@ button#account {
   border: transparent;
 }
 
+img#little-logo {
+  width: 35px;
+  padding: none;
+  vertical-align: middle;
+
+}
+
 button#google {
   width: 90%;
+  font-weight: bold;
   margin-top: 10px;
   background-color: #fff;
   border-radius: 3px;
-  border: lightgrey solid 1px;
+  border: #fff solid 1px;
   margin-bottom: 10px;
-  line-height: 3;
   padding-right: 48px;
+  vertical-align: middle;
+  box-shadow: 1px 1px lightgrey;
 }
 
 /* SECTION BUSINESS BRAND */
@@ -440,7 +444,54 @@ button.last_button {
   margin-bottom: 30px;
 }
 
+/* FOOTER */
 
+footer {
+  background-color: #183153;
+}
+
+.container.foot_cont{
+  color: #95abc9;
+}
+
+.content_copyright {
+  margin-top: 40px;
+}
+
+p#cpy_p {
+ margin-bottom: 0;
+}
+
+#img_copyright {
+  margin-bottom: 15px;
+}
+
+#NY {
+  font-size: 13px;
+  color: #315a8e;
+}
+
+span.social > i {
+  padding-right: 10px;
+}
+
+ul.footer_ul {
+  font-size: 12px;
+  list-style: none;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  float: left;
+}
+
+ul.footer_ul > li {
+  padding: 5px;
+}
+
+ul.footer_ul:first-line {
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+}
 /* PROVE */
 
 
