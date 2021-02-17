@@ -26,6 +26,7 @@ i.fas.fa-bars {
     border-color: none;
 }
 
+
 .navbar-brand {
     float: left;
     height: 50px;
@@ -206,8 +207,9 @@ div.story {
 
 .content_logo {
   text-align: center;
-
 }
+
+
 
 /* MAIN SECTION DEPLOY */
 
@@ -315,7 +317,7 @@ section#table_container {
 }
 
 .content_table {
-    margin-left: 60px;
+    margin-left: 20px;
     padding-right: 22px;
 }
 
@@ -323,20 +325,16 @@ td > a {
   color: #20e5d5;
 }
 
-
-/* SISTEMA QUI!!!! */
-
 table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 60px;
 }
 
-
 td {
   border-bottom: 1px solid #dddddd;
   text-align: left;
-  padding: 8px;
+  padding: 8px 0;
 }
 
 td.first_td {
@@ -344,12 +342,12 @@ td.first_td {
 }
 
 td.second_td {
-  width: 200px;
+  width: 220px;
   color: lightgrey;
 }
 
 td.third_td {
-  width: 140px;
+  width: 60px;
 }
 
 tr.last_tr > td {
@@ -357,12 +355,61 @@ tr.last_tr > td {
 }
 
 
-/* <!-- DEV DIGIT OCEAN SECTION --> */
+/* <!-- ROCKBOX SECTION --> */
+
+.content_i {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+}
+
+.content_i.left {
+  left: 23%;
+}
+
+.content_i.right {
+  right: 23%;
+}
+
+.content_rock {
+ position: relative;
+}
 
 #rockbox {
-  width: 70%;
-  background-color: #fff;
+  width: 50%;
+  background-color: white;
+  display: inline-block;
 }
+
+.content_img_rock {
+  width: 100%;
+  height: 10%;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.content_img_rock > img {
+  width: 70%;
+
+}
+
+.content_costum.name:first-line {
+  font-weight: bold;
+}
+
+div.content_costum.name{
+    margin: 0;
+}
+
+.p_costum.new {
+    margin: 10px;
+}
+
+h2.deploy.new {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 
 /* MAIN LAST SECTION */
 .content_last {
@@ -446,7 +493,6 @@ span.right {
   display: none;
 }
 
-
   ul {
     padding: 0;
     margin: 0:
@@ -459,6 +505,18 @@ span.right {
       margin-top: 20px;
       margin-left: 25px;
   }
+/* LOGO CONTAINER */
+
+  .content_logo {
+    width: 20%;
+    height: 50px;
+    padding-right: 35px;
+  }
+
+  img.img_logo {
+    width: 100%;
+    height: 100%
+  }
 
   /* OLTRE JAMBO */
 
@@ -467,17 +525,6 @@ span.right {
     width: 145px;
     height: 70px;
   }
-
-  table {
-    width: 160%;
-    border-collapse: collapse;
-    margin-bottom: 60px;
-}
-
-.content_table {
-    margin-left: 85px;
-    padding-right: 22px;
-}
 
 }
 
@@ -542,8 +589,8 @@ span.right {
 }
 
 .content_table {
-    margin-left: 150px;
-    padding-right: 22px;
+    margin-left: 120px;
+    padding-right: 0;
 }
 
 }
