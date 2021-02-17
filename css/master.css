@@ -329,6 +329,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 60px;
+  text-align: center;
 }
 
 td {
@@ -583,14 +584,13 @@ span.right {
   }
 
   table {
-    width: 160%;
+    width: 100%;
     border-collapse: collapse;
     margin-bottom: 60px;
 }
 
-.content_table {
-    margin-left: 120px;
-    padding-right: 0;
+td.third_td {
+  width: 68px;
 }
 
 }
