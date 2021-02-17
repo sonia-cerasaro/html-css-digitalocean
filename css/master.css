@@ -115,6 +115,7 @@ section.jambotron {
 }
 
 /* COSTUMIZE EMAIL PASWORD SECTION UTILITY */
+
 h1#jumbo_title {
   font-size: 45px;
 }
@@ -142,9 +143,9 @@ p.grey_paragraph.jambo {
   color: lightgrey;
 }
 
-
 input#email {
   width: 90%;
+  font-size: 11px;
   border: lightgrey solid 1px;
   border-radius: 3px;
   padding: 5px;
@@ -152,6 +153,7 @@ input#email {
 
 input#password {
   width: 90%;
+  font-size: 11px;
   border: lightgrey solid 1px;
   border-radius: 3px;
   padding: 5px;
@@ -161,6 +163,7 @@ input#password {
 button#account {
   width: 90%;
   font-weight: bold;
+  font-size: 11px;
   margin-top: 10px;
   background-color: blue;
   color: #fff;
@@ -173,12 +176,12 @@ img#little-logo {
   width: 35px;
   padding: none;
   vertical-align: middle;
-
 }
 
 button#google {
   width: 90%;
   font-weight: bold;
+  font-size: 11px;
   margin-top: 10px;
   background-color: #fff;
   border-radius: 3px;
@@ -212,8 +215,6 @@ div.story {
 .content_logo {
   text-align: center;
 }
-
-
 
 /* MAIN SECTION DEPLOY */
 
@@ -359,7 +360,6 @@ tr.last_tr > td {
   border-bottom: transparent;
 }
 
-
 /* <!-- ROCKBOX SECTION --> */
 
 .content_i {
@@ -415,8 +415,8 @@ h2.deploy.new {
     margin-bottom: 50px;
 }
 
-
 /* MAIN LAST SECTION */
+
 .content_last {
   margin: 0;
 }
@@ -492,22 +492,74 @@ ul.footer_ul:first-line {
   font-size: 15px;
   color: #fff;
 }
-/* PROVE */
 
+/* SHARK */
 
-/* .col-xs-6 {
-
-  border: black solid 1px;
-  text-align: center;
+.content_shark {
+  width: 80%;
+  position: fixed;
+  bottom: 0;
+  left:0;
+  z-index: 1;
 }
 
-.col-sm-2 {
+#sharky {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 80px;
+  border-radius: 5px;
+}
 
-  border: black solid 1px;
-    text-align: center;
-} */
+.content_X_position {
+  position: relative;
+}
 
+.content_red_ball {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 15px;
+  left: 67px;
+}
 
+.red_ball {
+  width: 35px;
+  height: 35px;
+  color: #fff;
+  background-color: red;
+  border: #fff solid 4px;
+  border-radius: 50%;
+}
+
+.red_ball > p {
+  text-align: center;
+  margin-top: 3px;
+}
+
+.carret > i {
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  bottom: 0;
+  right: -10px;
+}
+
+.content_white {
+  width: 350px;
+  height: 55px;
+  background-color: #fff;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.content_white > p {
+  padding: 8px;
+}
+
+/* MEDIA */
 
 @media all and (min-width: 768px) {
 
@@ -577,7 +629,6 @@ span.right {
     width: 145px;
     height: 70px;
   }
-
 }
 
 @media all and (min-width: 992px) {
@@ -620,7 +671,6 @@ span.right {
   float: right;
 }
 
-
   ul {
     padding: 0;
     margin: 0:
@@ -644,4 +694,7 @@ td.third_td {
   width: 68px;
 }
 
+.content_X_position, .content_white {
+  float: right;
+}
 }
