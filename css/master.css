@@ -207,7 +207,6 @@ div.story {
 .content_logo {
   text-align: center;
 
-
 }
 
 /* MAIN SECTION DEPLOY */
@@ -302,7 +301,7 @@ img#page {
   margin-top: 20px;
 }
 
-/* TABLE SETCION */
+/* TABLE SECTION */
 
 section#table_container {
   text-align: center;
@@ -310,12 +309,26 @@ section#table_container {
   background-color: darkblue;
   background: url("https://prismic-io.s3.amazonaws.com/www-static/a2e2e54b-93f5-4579-9fa2-bd957fea611a_bg-map.svg") 50% 50% / cover no-repeat rgb(3, 27, 78);
 }
+.container_main_table {
+  width: 80%;
+  margin: auto;
+}
+
+.content_table {
+    margin-left: 60px;
+    padding-right: 22px;
+}
+
+td > a {
+  color: #20e5d5;
+}
+
 
 /* SISTEMA QUI!!!! */
 
 table {
+  width: 100%;
   border-collapse: collapse;
-
   margin-bottom: 60px;
 }
 
@@ -327,7 +340,7 @@ td {
 }
 
 td.first_td {
-  width: 60px;
+  width: 90px;
 }
 
 td.second_td {
@@ -336,8 +349,7 @@ td.second_td {
 }
 
 td.third_td {
-  width: 60px;
-  color: #20e5d5;
+  width: 140px;
 }
 
 tr.last_tr > td {
@@ -456,6 +468,16 @@ span.right {
     height: 70px;
   }
 
+  table {
+    width: 160%;
+    border-collapse: collapse;
+    margin-bottom: 60px;
+}
+
+.content_table {
+    margin-left: 85px;
+    padding-right: 22px;
+}
 
 }
 
@@ -512,5 +534,16 @@ span.right {
       margin-top: 14px;
       margin-left: 25px;
   }
+
+  table {
+    width: 160%;
+    border-collapse: collapse;
+    margin-bottom: 60px;
+}
+
+.content_table {
+    margin-left: 150px;
+    padding-right: 22px;
+}
 
 }
